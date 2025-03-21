@@ -775,10 +775,9 @@ body:has(.offcanvas){
 
 .header-title-box,
 .header-sidebar-info{
-	background: url(../images/icon-coffee-beans.svg) no-repeat;
 	background-position: center bottom 27px;
 	background-size: 16px auto;
-	padding-bottom: 70px;
+	padding-bottom: 30px;
 }
 
 .header-title-box h2{
@@ -3400,7 +3399,7 @@ body:has(.offcanvas){
 /************************************/
 
 .page-blog{
-    padding: 100px 0;
+    padding: 35px 0;
 }
 
 .post-item{
@@ -4082,7 +4081,7 @@ body:has(.offcanvas){
 /************************************/
 
 .page-gallery{
-	padding: 100px 0 70px;
+	padding: 35px 0 70px;
 }
 
 .page-gallery-box .photo-gallery{
@@ -4190,7 +4189,7 @@ body:has(.offcanvas){
 /************************************/
 
 .page-faqs{
-	padding: 100px 0;
+	padding: 35px 0;
 }
 
 .faqs-category-list ul{
@@ -4210,7 +4209,7 @@ body:has(.offcanvas){
 /************************************/
 
 .page-contact-us{
-	padding: 100px 0 50px;
+	padding: 35px 0 50px;
 }
 
 .contact-info-body{
