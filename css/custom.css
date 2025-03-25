@@ -474,7 +474,7 @@ body{
 	position: fixed;
 	width: 100%;
 	top: 0;
-	z-index: 1000;
+	z-index: 100;
 
 	@media screen and (min-width: 768px){
 		
@@ -5601,6 +5601,7 @@ body:has(.offcanvas){
 
 	.page-contact-us{
 		padding: 50px 0 25px;
+		padding-top: 100px;
 	}
 
 	.contact-information{
