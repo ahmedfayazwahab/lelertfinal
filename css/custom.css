@@ -543,10 +543,8 @@ body{
 }
 
 header.main-header{
-	position: fixed;
-	width: 100%;
+	position: relative;
 	z-index: 100;
-	background: #111d23;
 }
 
 header.main-header .header-sticky{
