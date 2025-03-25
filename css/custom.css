@@ -470,6 +470,17 @@ body{
 	padding: 10px 0;
 }
 
+.topbar{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+
+	@media screen and (min-width: 768px){
+		
+	}
+}
+
 .topbar-contact-info ul{
     display: flex;
     list-style: none;
@@ -543,8 +554,19 @@ body{
 }
 
 header.main-header{
-	position: relative;
 	z-index: 100;
+	position: fixed;
+	background: #111d23;
+	width: 100%;
+	top:40px;
+}
+
+@media screen and (max-width: 768px){
+	header.main-header{
+		top: 65px;
+		
+	}
+	
 }
 
 header.main-header .header-sticky{
@@ -1042,6 +1064,12 @@ body:has(.offcanvas){
 .hero.hero-slider-layout{
 	background: none;
 	padding: 0;
+	padding-top: 100px;
+
+	@media screen and (min-width: 768px){
+		
+	}
+
 }
 
 .hero.hero-slider-layout .hero-slide{
@@ -1124,6 +1152,7 @@ body:has(.offcanvas){
 .our-scrolling-ticker{
 	background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-secondary-color) 100%);
 	padding: 25px 0;
+	padding-top: 170px;
 }
 
 .scrolling-ticker-box{
@@ -1647,6 +1676,7 @@ body:has(.offcanvas){
 	background-position: center center;
 	background-size: 100% auto;
 	padding: 35px 0;
+	padding: 200px;
 }
 
 .our-support-nav{
@@ -4586,6 +4616,7 @@ body:has(.offcanvas){
 
 	.our-scrolling-ticker{
 		padding: 15px 0;
+		padding-top: 160px;
 	}
 
 	.scrolling-ticker-box{
@@ -4751,7 +4782,7 @@ body:has(.offcanvas){
 	}
 
 	.our-pricing{
-		padding: 50px 0;
+		padding: 150px 0;
 	}
 
 	.our-support-nav{
