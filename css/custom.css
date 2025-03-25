@@ -543,40 +543,17 @@ body{
 }
 
 header.main-header{
-  position: fixed;
-  top: -100px; /* Start off-screen */
-  width: 100%;
-  transition: top 0.4s ease, opacity 0.4s ease;
-  opacity: 0;
-  z-index: 1000;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	background: #111d23;
 }
-
-
-
-header.main-header.header-visible {
-	top: 0;
-  opacity: 1;
-  }
-
-  #topbar2 {
-	transition: transform 0.4s ease, opacity 0.4s ease;
-  }
-  
-  #topbar2.scrolled {
-	transform: translateY(-100%);
-	opacity: 0;
-	pointer-events: none;
-  }
 
 header.main-header .header-sticky{
-	background: #1c2b32;
-	width: 100%;
-	position: fixed;
-	top: 10;
+	position: relative;
+	top: 0;
 	z-index: 100;
 }
-
-
 
 header.main-header .header-sticky.hide{
 	top: -110px;
