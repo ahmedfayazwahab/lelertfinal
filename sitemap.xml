@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Home Page - Highest Priority -->
+  <url>
+    <loc>https://lelert.ca/</loc>
+    <lastmod>2025-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Menu Page - High Priority -->
+  <url>
+    <loc>https://lelert.ca/menu.html</loc>
+    <lastmod>2025-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Image Gallery - Medium Priority -->
+  <url>
+    <loc>https://lelert.ca/image-gallery.html</loc>
+    <lastmod>2025-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Blog Page - Medium Priority -->
+  <url>
+    <loc>https://lelert.ca/blog.html</loc>
+    <lastmod>2025-03-26</lastmod>
+    <changefreq>weekly</changefreq>  <!-- More frequent if you update blog regularly -->
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Contact Page - Medium Priority -->
+  <url>
+    <loc>https://lelert.ca/contact.html</loc>
+    <lastmod>2025-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- FAQs Page - Lower Priority -->
+  <url>
+    <loc>https://lelert.ca/faqs.html</loc>
+    <lastmod>2025-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+</urlset>
