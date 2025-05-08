@@ -1725,6 +1725,7 @@ body:has(.offcanvas){
 .pricing-image figure{
 	display: block;
 	border-radius: 400px 400px 400px 400px;
+	padding-top: 250px;
 }
 
 .pricing-image img{
