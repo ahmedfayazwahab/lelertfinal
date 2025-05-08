@@ -428,7 +428,7 @@ body{
 
 .section-title h1{
 	font-family: var(--accent-font);
-	font-size: 70px;
+	font-size: 40px;
 	text-transform: uppercase;
 	font-weight: 400;
 	line-height: 1.1em;
@@ -5702,7 +5702,7 @@ body:has(.offcanvas){
 	}
 
 	.section-title h1{
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 	.section-title h2{
