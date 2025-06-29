@@ -3394,7 +3394,7 @@ body:has(.offcanvas){
 /************************************/
 
 .page-menu{
-	padding: 100px 0;
+	padding: 200px 0;
 }
 
 .page-menu-box{
@@ -5300,7 +5300,7 @@ body:has(.offcanvas){
 	}
 
 	.page-menu{
-		padding: 50px 0;
+		padding: 200px 0;
 	}
 
 	.page-menu-box{
