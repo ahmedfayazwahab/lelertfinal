@@ -5838,18 +5838,21 @@ body:has(.offcanvas){
 
 	.our-pricing-box .nav-tabs{
         display: flex;
-		justify-content: center; /* centers items inside */
-		gap: 8px;
-		margin-top: -90px;
+		justify-content: center; /* keep them centered */
+		flex-wrap: nowrap; /* prevent wrapping */
+		gap: 12px; /* smaller spacing for mobile */
 		position: fixed;
 		left: 50%;
-		transform: translateX(-50%); /* centers it relative to screen */
-		z-index: 999; /* optional: keeps it on top */
+		transform: translateX(-50%);
+		margin-top: -90px;
+		z-index: 1000;
     }
 
 	.our-pricing-box ul li .btn-default.btn-highlighted{
         padding: 10px 12px;
         font-size: 12px;
+		flex: 1 1 auto; /* make buttons adjust size */
+    	text-align: center;
     }
 
 	.pricing-image{
