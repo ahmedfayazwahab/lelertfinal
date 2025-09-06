@@ -1692,9 +1692,11 @@ body:has(.offcanvas){
 	gap: 30px;
 	border: none;
 	position: fixed;
-	left: 37%;
+	left: 50%;
+	transform: translateX(-50%); /* ensures exact centering */
 	z-index: 1000;
 	margin-top: -150px;
+
 }
 
 .our-pricing-box ul li button{
@@ -5835,10 +5837,14 @@ body:has(.offcanvas){
     }
 
 	.our-pricing-box .nav-tabs{
-        gap: 8px;
-		left: 23%;
+        display: flex;
+		justify-content: center; /* centers items inside */
+		gap: 8px;
 		margin-top: -90px;
 		position: fixed;
+		left: 50%;
+		transform: translateX(-50%); /* centers it relative to screen */
+		z-index: 999; /* optional: keeps it on top */
     }
 
 	.our-pricing-box ul li .btn-default.btn-highlighted{
