@@ -1690,8 +1690,11 @@ body:has(.offcanvas){
 	display: flex;
 	justify-content: center;
 	gap: 30px;
-	background: var(--secondary-color);
 	border: none;
+	position: fixed;
+	left: 37%;
+	z-index: 1000;
+	margin-top: -150px;
 }
 
 .our-pricing-box ul li button{
@@ -5833,6 +5836,9 @@ body:has(.offcanvas){
 
 	.our-pricing-box .nav-tabs{
         gap: 8px;
+		left: 23%;
+		margin-top: -90px;
+		position: fixed;
     }
 
 	.our-pricing-box ul li .btn-default.btn-highlighted{
