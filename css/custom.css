@@ -3402,6 +3402,10 @@ body:has(.offcanvas){
 	padding: 200px 0;
 }
 
+.page-summerliciousmenu{
+	padding: 0px 0;
+}
+
 .page-menu-box{
 	display: flex;
 	flex-direction: column;
@@ -5306,6 +5310,10 @@ body:has(.offcanvas){
 
 	.page-menu{
 		padding: 200px 0;
+	}
+
+	.page-summerliciousmenu{
+		padding: 0px 0;
 	}
 
 	.page-menu-box{
