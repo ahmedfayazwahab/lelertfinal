@@ -1,9 +1,11 @@
 # Le Lert — Thai Restaurant Website
 
+[![Live](https://img.shields.io/badge/live-lelert.ca-brightgreen)](https://lelert.ca)
+
 Marketing website for **Le Lert**, a Thai restaurant in downtown Toronto (27 Carlton St)
 serving authentic Thai brunch, lunch, and dinner with a modern Asian-fusion take.
 
-Live at **lelert.ca**.
+**🔴 Live at [lelert.ca](https://lelert.ca)**
 
 ## What this is
 
